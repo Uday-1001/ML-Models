@@ -1,107 +1,144 @@
-# 🏠 Housing Price Predictor
+<div align="center">
 
+# 🤖 ML-Models
+
+### A collection of Machine Learning projects covering **Healthcare**, **Regression**, and **Computer Vision**
+
+<img src="https://img.shields.io/badge/Machine%20Learning-Projects-blue?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Python-3.x-yellow?style=for-the-badge&logo=python" />
+<img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge" />
+
+</div>
+
+---
+
+## 📌 About This Repository
+
+This repository contains a collection of **Machine Learning projects** built to explore different real-world applications of AI and Data Science.
+
+It includes projects from multiple domains such as:
+
+- 🩺 **Healthcare Prediction**
+- 🏠 **Price Forecasting**
+- ✍️ **Image Classification / Deep Learning**
+
+Each project demonstrates the complete ML workflow including:
+
+- Data preprocessing
+- Feature engineering
+- Model training
+- Evaluation
+- Prediction / inference
+
+---
+
+# 📂 Projects Included
+
+## 1️⃣ Cancer Predictor System
+
+### 🩺 Overview
+A Machine Learning project designed to predict whether a tumor is **Benign** or **Malignant** based on medical input features.
+
+### ✨ Features
+- Tumor classification using ML algorithms
+- Data preprocessing and cleaning
+- Feature-based prediction system
+- Model training and evaluation
+- Useful for healthcare-oriented ML understanding
+
+### 🛠 Tech Stack
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Matplotlib / Seaborn (if used)
+
+### 🎯 Objective
+To build a reliable predictive system that can assist in early-stage tumor analysis using machine learning concepts.
+
+---
+
+## 2️⃣ Housing Price Predictor
+
+### 🏠 Overview
 A Machine Learning project that predicts **house prices in California** using various housing and demographic features.
-The model is trained on the **California Housing Prices Dataset** and demonstrates a complete machine learning workflow including preprocessing, training, and prediction.
+
+### ✨ Features
+- House price prediction using regression
+- Data preprocessing pipeline
+- Handling missing values and scaling
+- Model training and testing
+- End-to-end regression workflow
+
+### 🛠 Tech Stack
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Matplotlib
+
+### 🎯 Objective
+To understand and implement a complete **regression-based machine learning pipeline** on real-world housing data.
 
 ---
 
-## 📌 Project Overview
+## 3️⃣ MNIST Dataset Training
 
-The **Housing Price Predictor** estimates the "**House Value"** of districts in California based on features such as income levels, housing statistics, and geographical location.
+### ✍️ Overview
+A Deep Learning / ML project built on the famous **MNIST handwritten digit dataset** to classify digits from **0 to 9**.
 
-This project showcases:
+### ✨ Features
+- Handwritten digit recognition
+- Image preprocessing
+- Model training on MNIST dataset
+- Accuracy evaluation
+- Foundational computer vision project
 
-* Data preprocessing
-* Handling missing values
-* Feature scaling
-* Machine learning model training
-* Model evaluation
-* Making predictions on unseen data
+### 🛠 Tech Stack
+- Python
+- NumPy
+- TensorFlow / Keras or Scikit-learn (depending on your implementation)
+- Matplotlib
 
----
-
-## 📊 Dataset
-
-The model is trained on the **California Housing Prices Dataset**, which contains housing information from districts across California.
-
-### Features
-
-* `longitude` – Longitude coordinate of the district
-* `latitude` – Latitude coordinate of the district
-* `housing_median_age` – Median age of houses in the district
-* `total_rooms` – Total number of rooms
-* `total_bedrooms` – Total number of bedrooms
-* `population` – Population of the district
-* `households` – Number of households
-* `median_income` – Median income of households
-* `ocean_proximity` – Location relative to the ocean
-
-### Target Variable
-
-* `median_house_value` – Median house price in the district
+### 🎯 Objective
+To learn and implement **image classification** concepts using one of the most popular beginner-friendly datasets in Machine Learning.
 
 ---
 
-## ⚙️ Technologies Used
+# 🧠 Learning Outcomes
 
-* Python
-* NumPy
-* Pandas
-* Scikit-Learn
-* Matplotlib
-* Jupyter Notebook
+Through these projects, the following ML concepts are explored:
 
----
-
-## 🧠 Machine Learning Workflow
-
-The project follows the standard machine learning pipeline:
-
-1. Data Loading
-2. Data Cleaning
-3. Missing Value Handling (Imputation)
-4. Feature Scaling
-5. Model Training
-6. Model Evaluation
-7. Prediction
+- Supervised Learning
+- Classification
+- Regression
+- Model Evaluation
+- Data Preprocessing
+- Training Pipelines
+- Computer Vision Basics
+- Practical Machine Learning Workflows
 
 ---
 
-## 📂 Project Structure
+# 🛠 Common Tools & Libraries
 
-```
-Housing-Price-Predictor
-│
-├── data/               # Dataset
-├── notebooks/          # EDA and experiments
-├── models/             # Saved trained models
-├── src/                # Source code
-├── main.py             # Main script
-├── requirements.txt
-└── README.md
-```
+Some of the commonly used libraries across the projects are:
+
+- **Python**
+- **Pandas**
+- **NumPy**
+- **Scikit-learn**
+- **TensorFlow / Keras**
+- **Matplotlib**
+- **Seaborn**
 
 ---
 
-## 📈 Model Goal
+# 📁 Repository Structure
 
-The goal of this project is to **predict median house prices** based on demographic and geographic housing data using machine learning techniques.
-
----
-
-## 🔮 Future Improvements
-
-* Hyperparameter tuning
-* Try advanced models (XGBoost, Gradient Boosting)
-* Build a web interface for predictions
-* Deploy using Flask or FastAPI
-
----
-
-## 📜 License
-
-This project is open-source.
-
----
-
-⭐ If you found this project useful, consider **starring the repository**!
+```bash
+ML-Models/
+│── Cancer Predictor System/
+│── Housing Price Predictor/
+│── MNIST Dataset Training/
+│── README.md
